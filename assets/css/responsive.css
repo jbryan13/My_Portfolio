@@ -1,0 +1,420 @@
+:root {
+  --font-family: "Poppins", sans-serif;
+  --font-clr1: #20262e;
+  --font-clr2: #e0ddca;
+  --font-clr3: #3eb67e;
+  --bg-clr: #faf9f9;
+  --clr-opp: #fefefe;
+}
+
+
+
+/*----------width_1200px--------------*/
+@media (max-width: 1200px) {
+/*----------header-section--------------*/
+  nav {
+    padding: 0px 50px;
+  }
+  .hero {
+    padding: 0px 100px;
+  }
+  .wave {
+  	bottom: -20px;
+  }
+  /*----------about-section--------------*/
+  .about_wrap {
+    padding: 0pc 100px;
+    top: 45%;
+  }
+
+  /*----------skill-section--------------*/
+  .skill_wrap .skill_row {
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+  }
+  #skill_section .skill_row2{
+  	width: 97%;
+  	height: 275px;
+  }
+
+  /*----------project-section--------------*/
+  #project_section{
+  	margin-bottom: -50px;
+  }
+  .project1,
+  .project{
+  	justify-content: space-between;
+  }
+  .box_proj_img,
+  .box_proj_info{
+	width:50%;
+  }
+
+/*----------contact-section--------------*/
+  #contact_section {
+  	height: 75vh;
+    padding: 30px 50px;
+  }
+  #contact_section h2{
+  	font-size: 3.5rem;
+  }
+  .contactsection_wrap {
+    padding: 0px 50px;
+  }
+  .right_contact_info {
+    width: 450px;
+  }
+}
+
+
+
+/*----------width_1001px--------------*/
+@media (max-width: 1001px) {
+/*----------header-section--------------*/
+  nav {
+    padding: 0px 30px;
+  }
+  .hero {
+    padding: 0px 50px;
+    gap: 2%;
+  }
+  .hero_left {
+  	width: 48%;
+  }
+  .hero_left img {
+	width: 98%;
+  	height: 490px;
+  }
+  #visual {
+  	left:45%;
+  	top: 37%;
+  }
+  .hero_right{
+  	width: 50%;
+  	z-index: 300;
+  }
+  .hero_right h1 {
+    font-size: 3.5rem;
+    margin-bottom: -30px;
+  }
+  .hero_right h2 {
+    font-size: 3.5rem;
+  }
+  .hero_right h3 {
+    font-size: .9rem;
+    width: 100%;
+  }
+  .home_social_links{
+  	margin-top: 5px;
+  }
+  .home_social_links a {
+    font-size: 1.3rem;
+  }
+  .wave {
+  	bottom: -40px;
+  }
+  .tech_stack{
+  	gap: 10px;
+  	margin-top: 10px;
+  }
+  .tech_stack h4{
+  	font-size: 0.9rem;
+  	padding-right: 10px;
+  }
+  .lang_logo img {
+  	width: 30px;
+  	height: 30px;
+  }
+
+  /*----------about-section--------------*/
+  #about_section {
+    margin-bottom: -30px;
+  }
+  .about_left_section h4 {
+  	font-size: 3.5rem;
+  }
+  .about_wrap {
+  	top: 52%;
+    padding: 0pc 50px;
+  }
+
+
+  /*----------skill-section--------------*/
+  #skill_section .skill_row2{
+  	width: 100%;
+  	height: auto;
+  }
+
+  /*----------project-section--------------*/
+  .project1,
+  .project{
+  	flex-direction: column;
+  }
+  .box_proj_img,
+  .box_proj_info{
+	width:90%;
+  }
+
+/*----------contact-section--------------*/
+  #contact_section {
+    padding: 0px 50px;
+  }
+  .contactsection_wrap {
+    padding: 15px 50px;
+  }
+}
+
+
+
+/*----------width_701px--------------*/
+@media (max-width: 701px) {
+/*----------header-section--------------*/
+  body {
+    overflow-x: hidden;
+  }
+  .logo {
+    margin-top: 0px;
+  }
+  .menu_btn {
+    display: block;
+  }
+  .menu_btn div {
+    width: 30px;
+    height: 4px;
+    margin: 5px;
+    border: none;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+  }
+  nav{
+  	height: 60px;
+  }
+  .navar {
+    box-sizing: border-box;
+    padding: 30px 0px;
+    display: fixed;
+    flex-direction: column;
+    justify-content: space-arround;
+    position: absolute;
+    transform: translateX(102%);
+    transition: 0.3s ease-in;
+    top: 40px;
+    right: 0px;
+    width: 80%;
+    height: 84vh;
+    text-align: center;
+    z-index: 2000;
+    background-color: var(--clr-opp);
+  }
+  .navar li a {
+	font-size: 1.2rem;
+  }
+  /*-------heroSection--------*/
+  .hero {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    padding: 0px 30px;
+    text-align: center;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hero_right {
+    width: 100%;
+    height: 50%;
+    text-align: center;
+  }
+  .hero_left {
+    height: 50%;
+    width: 90%;
+  }
+  .hero_left img {
+    object-fit: cover;
+    transform: translateX(25px);
+    object-position: top;
+    width: 100%;
+    height: 350px;
+    bottom: -80px;
+    left: 0px;
+  }
+  .wave {
+  	bottom: -70px;
+  }
+  #visual {
+    width: 180%;
+    z-index: 0;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
+  .hero_right h1 {
+    font-size: 3.7rem;
+  }
+  .hero_right h2 {
+    font-size: 3.7rem;
+  }
+  .hero_right h3 {
+    font-size: 0.8rem;
+    width: 100%;
+    text-align: center;
+  }
+  .hero_right h3 img {
+    width: 15px;
+    height: 15px;
+  }
+  .home_social_links {
+    display: flex;
+    margin: 10px auto;
+  }
+  .tech_stack {
+	justify-content: center;
+  }
+  .tech_stack h4 {
+    font-size: 0.9rem;
+  }
+
+ /*----------about-section--------------*/
+  #about_section {
+    margin-bottom: -140px;
+  }
+  .about_wrap {
+    flex-direction: column;
+    top: 43%;
+    padding: 0px 50px;
+  }
+  #about_section .about_right_section img {
+    display: none;
+  }
+
+ /*----------skill-section--------------*/
+  #skill_section h1{
+  	font-size: 3rem;
+  }
+  #skill_section .skill_row2{
+  	width: 100%;
+  	flex-direction: column;
+  	gap: 30px;
+  }
+  .skill_row2 .row-2{
+  	width: 100%;
+  }
+
+  /*----------project-section--------------*/
+  #project_section{
+  	padding: 40px 20px 40px 20px;
+  	margin-bottom: 0px;
+  }
+
+  #project_section h1{
+  	width: 100%;
+  	font-size: 4rem;
+  	text-align: center;
+  	margin-bottom: 20px;
+  }
+  .project_wrap_section{
+  	padding: 0;
+  }
+  .box_proj_img,
+  .box_proj_info{
+	width:90%;
+	padding: 0;
+  }
+  .box_proj_img .pc_view{
+  	width: 100%;
+  }
+  .box_proj_img .cp_view{
+  	display: none;
+  }
+}
+
+
+
+
+
+
+@media (max-width: 401px) {
+ /*----------header-section--------------*/
+  .hero_right h1 {
+    font-size: 3.5rem;
+  }
+ /*----------about-section--------------*/
+  #about_section{
+  	margin-bottom: -50px;
+  }
+  .about_wrap {
+  	top: 45%;
+  }
+  .about_left_section h4{
+  	font-size: 3rem;
+  }
+
+  /*----------skill-section--------------*/
+  #skill_section {
+    height: 170vh;
+    padding: 0px 0px;
+  }
+  .skill_wrap .skill_row{
+  	width: 100%;
+  }
+
+  /*----------project-section--------------*/
+  #project_section h1{
+  	width: 100%;
+  	font-size: 3.5rem;
+  	text-align: center;
+  	margin-bottom: 20px;
+  }
+
+
+ /*----------contact-section--------------*/
+  #contact_section {
+   height: 120vh;
+   padding: 50px 20px;
+  }
+  #contact_section h2 {
+  	font-size: 3rem;
+  }
+  .contactsection_wrap{
+  	flex-direction: column;
+  	top: 54%;
+  	padding: 20px;
+  	gap: 80px;
+  }
+  .left_contact_info{
+  	width: 100%;
+  }
+
+  #contact_section .right_contact_info{
+  	width: 100%;
+  }
+  /*----------footer-section--------------*/
+  .footer p {
+    font-size: 0.5rem;
+  }
+}
+
+
+
+
+
+
+/*-------------showNav------------*/
+.showNav {
+  transform: translateX(0%);
+  z-index: 2000;
+}
+
+/*-------------nav_fade-----------*/
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 8px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
