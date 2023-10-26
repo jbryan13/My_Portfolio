@@ -5,6 +5,7 @@
   --font-clr3: #3eb67e;
   --bg-clr: #faf9f9;
   --clr-opp: #fefefe;
+  --font-clr5:#5272F2;
 }
 
 
@@ -23,8 +24,7 @@
   }
   /*----------about-section--------------*/
   .about_wrap {
-    padding: 0pc 100px;
-    top: 45%;
+    height:100vh;
   }
 
   /*----------skill-section--------------*/
@@ -50,27 +50,16 @@
   .box_proj_info{
 	width:50%;
   }
-
-/*----------contact-section--------------*/
-  #contact_section {
-  	height: 75vh;
-    padding: 30px 50px;
-  }
-  #contact_section h2{
-  	font-size: 3.5rem;
-  }
-  .contactsection_wrap {
-    padding: 0px 50px;
-  }
-  .right_contact_info {
-    width: 450px;
+  /*----------contact-section--------------*/
+  #contact_section{
+    padding: 75px 50px;
   }
 }
 
 
 
 /*----------width_1001px--------------*/
-@media (max-width: 1001px) {
+@media (max-width: 1000px) {
 /*----------header-section--------------*/
   nav {
     padding: 0px 30px;
@@ -80,26 +69,27 @@
     gap: 2%;
   }
   .hero_left {
-  	width: 48%;
+  	width: 40%;
   }
   .hero_left img {
-	width: 98%;
+	  width: 98%;
   	height: 490px;
   }
   #visual {
-  	left:45%;
+  	left:40%;
   	top: 37%;
   }
   .hero_right{
   	width: 50%;
   	z-index: 300;
+    margin-left: -100px;
   }
   .hero_right h1 {
-    font-size: 3.5rem;
+    font-size: 4.3rem;
     margin-bottom: -30px;
   }
   .hero_right h2 {
-    font-size: 3.5rem;
+    font-size: 4.3rem;
   }
   .hero_right h3 {
     font-size: .9rem;
@@ -135,7 +125,6 @@
   	font-size: 3.5rem;
   }
   .about_wrap {
-  	top: 52%;
     padding: 0pc 50px;
   }
 
@@ -158,17 +147,23 @@
 
 /*----------contact-section--------------*/
   #contact_section {
-    padding: 0px 50px;
+    padding: 80px 20px;
   }
-  .contactsection_wrap {
-    padding: 15px 50px;
+  #contact_section .contact_box{
+    height:200px;
+  }
+  .contact_box h4{
+    font-size:15px;
+  }
+  .contact_box h5{
+    font-size: 12px;
   }
 }
 
 
 
 /*----------width_701px--------------*/
-@media (max-width: 701px) {
+@media (max-width: 800px) {
 /*----------header-section--------------*/
   body {
     overflow-x: hidden;
@@ -202,7 +197,7 @@
     top: 40px;
     right: 0px;
     width: 80%;
-    height: 84vh;
+    height: 90vh;
     text-align: center;
     z-index: 2000;
     background-color: var(--clr-opp);
@@ -211,37 +206,20 @@
 	font-size: 1.2rem;
   }
   /*-------heroSection--------*/
-  .hero {
-    flex-direction: column-reverse;
-    justify-content: center;
+  .hero{
+    flex-direction:column-reverse;
     gap: 20px;
-    padding: 0px 30px;
-    text-align: center;
-    height: 80vh;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
-  .hero_right {
-    width: 100%;
-    height: 50%;
-    text-align: center;
+  .hero_right{
+    width: 80%;
+    margin-left: 0px;
+    text-align:center;
   }
-  .hero_left {
-    height: 50%;
-    width: 90%;
-  }
-  .hero_left img {
-    object-fit: cover;
-    transform: translateX(25px);
-    object-position: top;
-    width: 100%;
-    height: 350px;
-    bottom: -80px;
-    left: 0px;
+  .hero_left{
+    width: 60%;
   }
   .wave {
-  	bottom: -70px;
+  	bottom: -60px;
   }
   #visual {
     width: 180%;
@@ -257,6 +235,9 @@
   .hero_right h2 {
     font-size: 3.7rem;
   }
+  .hero_right h2::before{
+    display: none;
+  }
   .hero_right h3 {
     font-size: 0.8rem;
     width: 100%;
@@ -266,16 +247,12 @@
     width: 15px;
     height: 15px;
   }
+
   .home_social_links {
-    display: flex;
-    margin: 10px auto;
+    height:30%;
+    top:40%;
   }
-  .tech_stack {
-	justify-content: center;
-  }
-  .tech_stack h4 {
-    font-size: 0.9rem;
-  }
+  
 
  /*----------about-section--------------*/
   #about_section {
@@ -329,6 +306,43 @@
   .box_proj_img .cp_view{
   	display: none;
   }
+
+  /*----------project-section--------------*/
+  .contact_top_section{
+    flex-direction:column;
+    height:auto;
+    gap: 20px;
+    justify-content:center;
+    align-items:center;
+  }
+  #contact_section .contact_box{
+    width: 250px;
+    height:250px;
+    text-align:center;
+  }
+  .contact_box h4{
+    font-size:20px;
+  }
+  .contact_box h5{
+    font-size:15px;
+  }
+
+  .contact_buttom_section{
+     height:auto;
+  }
+  #contact_section .left_contact_info{
+    width: 100%;
+    height:500px;
+  }
+  #contact_section .right_contact_info{
+    width: 100%;
+    height:500px;
+  }
+
+
+
+
+
 }
 
 
