@@ -5,14 +5,12 @@
   --font-clr3: #3eb67e;
   --bg-clr: #faf9f9;
   --clr-opp: #fefefe;
-  --font-clr5:#5272F2;
+  --font-clr5: #5272f2;
 }
-
-
 
 /*----------width_1200px--------------*/
 @media (max-width: 1200px) {
-/*----------header-section--------------*/
+  /*----------header-section--------------*/
   nav {
     padding: 0px 50px;
   }
@@ -20,11 +18,11 @@
     padding: 0px 100px;
   }
   .wave {
-  	bottom: -20px;
+    bottom: -20px;
   }
   /*----------about-section--------------*/
   .about_wrap {
-    height:100vh;
+    height: 100vh;
   }
 
   /*----------skill-section--------------*/
@@ -33,34 +31,32 @@
     gap: 20px;
     justify-content: center;
   }
-  #skill_section .skill_row2{
-  	width: 97%;
-  	height: 275px;
+  #skill_section .skill_row2 {
+    width: 97%;
+    height: 275px;
   }
 
   /*----------project-section--------------*/
-  #project_section{
-  	margin-bottom: -50px;
+  #project_section {
+    margin-bottom: -50px;
   }
   .project1,
-  .project{
-  	justify-content: space-between;
+  .project {
+    justify-content: space-between;
   }
   .box_proj_img,
-  .box_proj_info{
-	width:50%;
+  .box_proj_info {
+    width: 50%;
   }
   /*----------contact-section--------------*/
-  #contact_section{
+  #contact_section {
     padding: 75px 50px;
   }
 }
 
-
-
 /*----------width_1001px--------------*/
 @media (max-width: 1000px) {
-/*----------header-section--------------*/
+  /*----------header-section--------------*/
   nav {
     padding: 0px 30px;
   }
@@ -69,19 +65,19 @@
     gap: 2%;
   }
   .hero_left {
-  	width: 40%;
+    width: 40%;
   }
   .hero_left img {
-	  width: 98%;
-  	height: 490px;
+    width: 98%;
+    height: 490px;
   }
   #visual {
-  	left:40%;
-  	top: 37%;
+    left: 40%;
+    top: 37%;
   }
-  .hero_right{
-  	width: 50%;
-  	z-index: 300;
+  .hero_right {
+    width: 50%;
+    z-index: 300;
     margin-left: -100px;
   }
   .hero_right h1 {
@@ -92,29 +88,29 @@
     font-size: 4.3rem;
   }
   .hero_right h3 {
-    font-size: .9rem;
+    font-size: 0.9rem;
     width: 100%;
   }
-  .home_social_links{
-  	margin-top: 5px;
+  .home_social_links {
+    margin-top: 5px;
   }
   .home_social_links a {
     font-size: 1.3rem;
   }
   .wave {
-  	bottom: -40px;
+    bottom: -40px;
   }
-  .tech_stack{
-  	gap: 10px;
-  	margin-top: 10px;
+  .tech_stack {
+    gap: 10px;
+    margin-top: 10px;
   }
-  .tech_stack h4{
-  	font-size: 0.9rem;
-  	padding-right: 10px;
+  .tech_stack h4 {
+    font-size: 0.9rem;
+    padding-right: 10px;
   }
   .lang_logo img {
-  	width: 30px;
-  	height: 30px;
+    width: 30px;
+    height: 30px;
   }
 
   /*----------about-section--------------*/
@@ -122,49 +118,46 @@
     margin-bottom: -30px;
   }
   .about_left_section h4 {
-  	font-size: 3.5rem;
+    font-size: 3.5rem;
   }
   .about_wrap {
     padding: 0pc 50px;
   }
 
-
   /*----------skill-section--------------*/
-  #skill_section .skill_row2{
-  	width: 100%;
-  	height: auto;
+  #skill_section .skill_row2 {
+    width: 100%;
+    height: auto;
   }
 
   /*----------project-section--------------*/
   .project1,
-  .project{
-  	flex-direction: column;
+  .project {
+    flex-direction: column;
   }
   .box_proj_img,
-  .box_proj_info{
-	width:90%;
+  .box_proj_info {
+    width: 90%;
   }
 
-/*----------contact-section--------------*/
+  /*----------contact-section--------------*/
   #contact_section {
     padding: 80px 20px;
   }
-  #contact_section .contact_box{
-    height:200px;
+  #contact_section .contact_box {
+    height: 200px;
   }
-  .contact_box h4{
-    font-size:15px;
+  .contact_box h4 {
+    font-size: 15px;
   }
-  .contact_box h5{
+  .contact_box h5 {
     font-size: 12px;
   }
 }
 
-
-
 /*----------width_701px--------------*/
 @media (max-width: 800px) {
-/*----------header-section--------------*/
+  /*----------header-section--------------*/
   body {
     overflow-x: hidden;
   }
@@ -182,8 +175,8 @@
     border-radius: 1.5px;
     box-sizing: border-box;
   }
-  nav{
-  	height: 60px;
+  nav {
+    height: 60px;
   }
   .navar {
     box-sizing: border-box;
@@ -196,30 +189,33 @@
     transition: 0.3s ease-in;
     top: 40px;
     right: 0px;
-    width: 80%;
+    width: 100%;
     height: 90vh;
     text-align: center;
     z-index: 2000;
     background-color: var(--clr-opp);
   }
   .navar li a {
-	font-size: 1.2rem;
+    font-size: 1.2rem;
   }
   /*-------heroSection--------*/
-  .hero{
-    flex-direction:column-reverse;
+  .hero {
+    flex-direction: column-reverse;
     gap: 20px;
   }
-  .hero_right{
+  .hero_right {
     width: 80%;
     margin-left: 0px;
-    text-align:center;
+    text-align: center;
   }
-  .hero_left{
-    width: 60%;
+  .hero_left {
+    width: 80%;
+  }
+  .hero_left img {
+    height: 530px;
   }
   .wave {
-  	bottom: -60px;
+    bottom: -60px;
   }
   #visual {
     width: 180%;
@@ -235,7 +231,7 @@
   .hero_right h2 {
     font-size: 3.7rem;
   }
-  .hero_right h2::before{
+  .hero_right h2::before {
     display: none;
   }
   .hero_right h3 {
@@ -249,12 +245,11 @@
   }
 
   .home_social_links {
-    height:30%;
-    top:40%;
+    height: 30%;
+    top: 40%;
   }
-  
 
- /*----------about-section--------------*/
+  /*----------about-section--------------*/
   #about_section {
     margin-bottom: -140px;
   }
@@ -267,154 +262,136 @@
     display: none;
   }
 
- /*----------skill-section--------------*/
-  #skill_section h1{
-  	font-size: 3rem;
+  /*----------skill-section--------------*/
+  #skill_section h1 {
+    font-size: 3rem;
   }
-  #skill_section .skill_row2{
-  	width: 100%;
-  	flex-direction: column;
-  	gap: 30px;
+  #skill_section .skill_row2 {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
   }
-  .skill_row2 .row-2{
-  	width: 100%;
+  .skill_row2 .row-2 {
+    width: 100%;
   }
 
   /*----------project-section--------------*/
-  #project_section{
-  	padding: 40px 20px 40px 20px;
-  	margin-bottom: 0px;
+  #project_section {
+    padding: 40px 20px 40px 20px;
+    margin-bottom: 0px;
   }
 
-  #project_section h1{
-  	width: 100%;
-  	font-size: 4rem;
-  	text-align: center;
-  	margin-bottom: 20px;
+  #project_section h1 {
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 20px;
   }
-  .project_wrap_section{
-  	padding: 0;
+  .project_wrap_section {
+    padding: 0;
   }
   .box_proj_img,
-  .box_proj_info{
-	width:90%;
-	padding: 0;
+  .box_proj_info {
+    width: 90%;
+    padding: 0;
   }
-  .box_proj_img .pc_view{
-  	width: 100%;
+  .box_proj_img .pc_view {
+    width: 100%;
   }
-  .box_proj_img .cp_view{
-  	display: none;
+  .box_proj_img .cp_view {
+    display: none;
   }
 
   /*----------project-section--------------*/
-  .contact_top_section{
-    flex-direction:column;
-    height:auto;
+  .contact_top_section {
+    flex-direction: column;
+    height: auto;
     gap: 20px;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
   }
-  #contact_section .contact_box{
+  #contact_section .contact_box {
     width: 250px;
-    height:250px;
-    text-align:center;
+    height: 250px;
+    text-align: center;
   }
-  .contact_box h4{
-    font-size:20px;
+  .contact_box h4 {
+    font-size: 20px;
   }
-  .contact_box h5{
-    font-size:15px;
+  .contact_box h5 {
+    font-size: 15px;
   }
 
-  .contact_buttom_section{
-     height:auto;
+  .contact_buttom_section {
+    height: auto;
   }
-  #contact_section .left_contact_info{
+  #contact_section .left_contact_info {
     width: 100%;
-    height:500px;
+    height: 500px;
   }
-  #contact_section .right_contact_info{
+  #contact_section .right_contact_info {
     width: 100%;
-    height:500px;
+    height: 500px;
   }
-
-
-
-
-
 }
-
-
-
-
-
 
 @media (max-width: 401px) {
- /*----------header-section--------------*/
+  /*----------header-section--------------*/
+  .hero {
+    padding: 0 20px;
+    gap: 50px;
+  }
   .hero_right h1 {
-    font-size: 3.5rem;
+    font-size: 2.4rem;
   }
- /*----------about-section--------------*/
-  #about_section{
-  	margin-bottom: -50px;
+  .hero_right h2 {
+    font-size: 2.7rem;
   }
-  .about_wrap {
-  	top: 45%;
+  .hero_right {
+    width: 100%;
   }
-  .about_left_section h4{
-  	font-size: 3rem;
+  .hero_left {
+    width: 100%;
+  }
+  .home_social_links {
+    flex-direction: row;
+    width: 200px;
+    gap: 20px;
+    top: 75px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  /*----------about-section--------------*/
+  #about_section {
+    margin-bottom: -50px;
+  }
+  /* .about_wrap {
+    top: 45%;
+  } */
+  .about_left_section h4 {
+    font-size: 2.5rem;
   }
 
-  /*----------skill-section--------------*/
-  #skill_section {
-    height: 170vh;
-    padding: 0px 0px;
+  /*----------Myproject-section--------------*/
+  #project_section {
+    padding: 0px;
+    margin-bottom: 0px;
   }
-  .skill_wrap .skill_row{
-  	width: 100%;
+  #project_section h1 {
+    font-size: 3rem;
   }
-
-  /*----------project-section--------------*/
-  #project_section h1{
-  	width: 100%;
-  	font-size: 3.5rem;
-  	text-align: center;
-  	margin-bottom: 20px;
-  }
-
-
- /*----------contact-section--------------*/
-  #contact_section {
-   height: 120vh;
-   padding: 50px 20px;
+  .box_proj_img .pc_view {
+    width: 100%;
+    height: 200px;
   }
   #contact_section h2 {
-  	font-size: 3rem;
+    font-size: 3.2rem;
   }
-  .contactsection_wrap{
-  	flex-direction: column;
-  	top: 54%;
-  	padding: 20px;
-  	gap: 80px;
-  }
-  .left_contact_info{
-  	width: 100%;
-  }
-
-  #contact_section .right_contact_info{
-  	width: 100%;
-  }
-  /*----------footer-section--------------*/
-  .footer p {
-    font-size: 0.5rem;
+  #contact_section .contact_box {
+    width: 100%;
+    height: 300px;
   }
 }
-
-
-
-
-
 
 /*-------------showNav------------*/
 .showNav {
