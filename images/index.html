@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="icons" content="./images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <link rel="stylesheet" href="./assets/css/all.css" />
+    <title>JBryan Portfolio</title>
+    
+    <script src="./assets/js/kute.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <script type="text/javascript"
+	        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+	  </script>
+	  <script type="text/javascript">
+	    (function(){
+	      emailjs.init("cLmA0MnUJOPtGo4Dv");
+	    })();
+	  </script>
+  </head>
+
+  <body>
+    <!-- portfolio_modal -->
+    <div class="portfolio_modal_success">
+      <div class="modal_success">
+        <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24"><path fill="#3eb67e" d="m10.6 16.6l7.05-7.05l-1.4-1.4l-5.65 5.65l-2.85-2.85l-1.4 1.4l4.25 4.25ZM12 22q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T2 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T12 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T22 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T12 22Z"/></svg>
+        <h2>Success!</h2>
+        <p>The form was submitted successfully! You'll hear back from us shortly.</p>
+      </div>
+    </div>
+      <!-- modal/ -->
+    <!-- -------header_section--------- -->
+    <header id="header" class="section">
+      <nav>
+        <a href="#header" class="logo"><img src="./images/myLogo.png"></span></a>
+        <div class="menu_btn" id="menuBtn">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="navar">
+          <li>
+            <a href="#header" class="links active">home</a>
+          </li>
+          <li>
+            <a href="#about_section" class="links">about</a>
+          </li>
+          <li>
+            <a href="#skill_section" class="links">Skills</a>
+          </li>
+          <li>
+            <a href="#project_section" class="links">Project</a>
+          </li>
+          <li>
+            <a href="#contact_section" class="links">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <div class="hero_left">
+          <img class="hero_slide" src="./images/myProfile.png" />
+          <svg class="hero_slide"
+            id="visual"
+            viewBox="0 0 900 600"
+            width="400"
+            height="600"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            version="1.1"
+          >
+            <g transform="translate(455.78508391981956 331.6977520138302)">
+              <path
+                id="b1"
+                d="M174.6 -189.3C207.8 -141.4 203.4 -70.7 190.1 -13.3C176.7 44.1 154.5 88.2 121.3 124.2C88.2 160.2 44.1 188.1 -0.8 188.9C-45.7 189.7 -91.5 163.5 -133.1 127.5C-174.8 91.5 -212.4 45.7 -211.6 0.8C-210.9 -44.2 -171.7 -88.4 -130.1 -136.2C-88.4 -184.1 -44.2 -235.5 13.3 -248.8C70.7 -262 141.4 -237.1 174.6 -189.3"
+                fill="#20262E"
+              ></path>
+            </g>
+            <g
+              transform="translate(443.9996702375381 299.3951613708872)"
+              style="visibility: hidden"
+            >
+              <path
+                id="b2"
+                d="M118.4 -115.4C166 -70.7 226 -35.4 238.5 12.5C251 60.3 216 120.7 168.3 161.8C120.7 203 60.3 225 -5.2 230.2C-70.7 235.4 -141.4 223.8 -181.9 182.6C-222.4 141.4 -232.7 70.7 -228 4.7C-223.3 -61.3 -203.6 -122.6 -163.1 -167.2C-122.6 -211.9 -61.3 -239.9 -13 -227C35.4 -214 70.7 -160 118.4 -115.4"
+                fill="#20262E"
+              ></path>
+            </g>
+          </svg>
+          <script>
+            const tween = KUTE.to(
+              "#b1",
+              { path: "#b2" },
+              { repeat: 999, duration: 3000, yoyo: true }
+            );
+            tween.start();
+          </script>
+        </div>
+        <div
+          class="hero_right hero_slide">
+          <h1>Front-End</h1>
+          <h2>Developer</h2>
+          <h3>
+            Hi, I'm John Bryan Anajao. A Passionate Front-End Develover based in
+            Philippines <img src="./images/pin.png" />
+          </h3>
+        </div>
+         <div class="home_social_links">
+            <a href="https://github.com/jbryan13" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/john-bryan-anajao-6bb8a3282"
+              target="_blank">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.facebook.com/bryananajao" target="_blank">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+      </div>
+     
+      <div class="wave">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </header>
+
+
+    <!-- -------about_section--------- -->
+    <section id="about_section" class="section">
+      <section class="about_wrap">
+        <section
+          class="about_left_section">
+          <h4>About Me</h4>
+          <p>
+            I am John Bryan Anajao a Front-End Web Developer with a working
+            profiency in HTML, CSS, and JAVASCRIPT. I have a solid understanding
+            of Bootstrap, Tailwind and Git version control. I am currently
+            expanding my skill set by studying REACT JS.
+          </p>
+          <br />
+          <p>
+            My Goal is to take the step from hobbyist to professional with a
+            company where I can learn, grow and showcase my skills. I believe
+            that with my current experience I would be an excellent choice for
+            an entry level junior developer.
+          </p>
+        </section>
+        <section
+          class="about_right_section">
+          <img src="./images/eastwood.png" />
+        </section>
+      </section>
+    </section>
+
+
+
+    <!-- -------skill_section--------- -->
+    <section class="section" id="skill_section">
+      <h1>My Skills</h1>
+      <section class="skill_wrap">
+        <div class="skill_row">
+          <div class="col_icons" style="--i:3">
+            <img src="./images/logo-html.png" />
+            <p>2 years</p>
+          </div>
+          <div class="col_icons" style="--i:2">
+            <img src="./images/logo-css.png" />
+            <p>2 years</p>
+          </div>
+          <div class="col_icons" style="--i:1">
+            <img src="./images/logo-js.png" />
+            <p>2 years</p>
+          </div>
+          <div class="col_icons" style="--i:0">
+            <img src="./images/logo-tailwind.png" />
+            <p>1 year</p>
+          </div>
+          <div
+            class="col_icons">
+            <img src="./images/logo-react.png" />
+            <p>1 year</p>
+          </div>
+        </div>
+        <div class="skill_row2">
+          <div class="row-2" style="--i:2">
+            <img src="./images/WebDev.png">
+            <h2>Front-End Development</h2>
+            <p>
+              I can create front-end for website using HTML, CSS, Tailwind and
+              Javascript framework especially using React JS.
+            </p>
+          </div>
+          <div class="row-2" style="--i:1">
+            <img src="./images/designer.png">
+            <h2>Web Design</h2>
+            <p>
+              Using HTML, CSS, Javascript and Figma tool to create static modern
+              website designs.
+            </p>
+          </div>
+          <div class="row-2" style="--i:0">
+            <img src="./images/responsive.png">
+            <h2>Responsive Design</h2>
+            <p>
+              Capable to develope a website for all types of devices and sizes
+              of screen.
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+
+    <!-- -------project_section--------- -->
+    <section class="section" id="project_section">
+      <div class="project_title_wrap">
+        <h1>My Project <span class="slide_animate"></span></h1>
+      </div>
+      <section class="project_wrap_section">
+        <section class="proj_wrap1">
+          <section class="project">
+          	<div class="box_proj_img slide_left">
+          		<img class="pc_view" src="./images/project1.png" alt="image" />
+            	<img class="cp_view" src="./images/project1_cp.png" alt="img">
+          	</div>
+            <div class="box_proj_info">
+            	<h2>01<span class="slide_animate"></span></h2>
+            	<h4>Sentiment Analysis on Customer Feedback Dashboard<span class="slide_animate"></span></h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua.<span class="slide_animate"></span></p>
+             	<div class="proj_btn">
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-link"></i>  View Site</a></button>
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-code"></i>  View Code</a></button>
+            	</div>	
+            </div>
+          </section>
+          <section class="project1">
+          	<div class="box_proj_img slide_right">
+          		<img class="pc_view" src="./images/project2.png" alt="image" />
+            <img class="cp_view" src="./images/project2_cp.png" alt="img">	
+          	</div>
+            <div class="box_proj_info">
+            	<h2>02<span class="slide_animate"></span></h2>
+            	<h4>WBR-system for Multimedia Freelancer<span class="slide_animate"></span></h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua.<span class="slide_animate"></span></p>
+             	<div class="proj_btn">
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-link"></i>  View Site</a></button>
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-code"></i>  View Code</a></button>
+            	</div>	
+            </div>
+          </section>
+          <section class="project">
+          	<div class="box_proj_img slide_left">
+          		<img class="pc_view" src="./images/project1.png" alt="image" />
+            <img class="cp_view" src="./images/cp.png" alt="img">	
+          	</div>
+            <div class="box_proj_info">
+            	<h2>03<span class="slide_animate"></span></h2>
+            	<h4>Lorem beewru ewriewrywer qwe<span class="slide_animate"></span></h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua.<span class="slide_animate"></span></p>
+            	<div class="proj_btn">
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-link"></i>  View Site</a></button>
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-code"></i>  View Code</a></button>
+            	</div>	
+            </div>
+          </section>
+          <section class="project1">
+          	<div class="box_proj_img slide_right">
+          		<img class="pc_view" src="./images/project1.png" alt="image" />
+            <img class="cp_view" src="./images/cp.png" alt="img">	
+          	</div>
+            <div class="box_proj_info">
+            	<h2>04<span class="slide_animate"></span></h2>
+            	<h4>Lorem beewru ewriewrywer qwe<span class="slide_animate"></span></h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua.<span class="slide_animate"></span></p>
+             	<div class="proj_btn">
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-link"></i>  View Site</a></button>
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-code"></i>  View Code</a></button>
+            	</div>	
+            </div>
+          </section>
+          <section class="project">
+          	<div class="box_proj_img slide_left">
+          		<img class="pc_view" src="./images/project1.png" alt="image" />
+            <img class="cp_view" src="./images/cp.png" alt="img">	
+          	</div>
+            <div class="box_proj_info">
+            	<h2>05<span class="slide_animate"></span></h2>
+            	<h4>Lorem beewru ewriewrywer qwe<span class="slide_animate"></span></h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua.<span class="slide_animate"></span></p>
+             	<div class="proj_btn">
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-link"></i>  View Site</a></button>
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-code"></i>  View Code</a></button>
+            	</div>	
+            </div>
+          </section>
+          <section class="project1">
+          	<div class="box_proj_img slide_right">
+          		<img class="pc_view" src="./images/project1.png" alt="image" />
+            <img class="cp_view" src="./images/cp.png" alt="img">	
+          	</div>
+            <div class="box_proj_info">
+            	<h2>06<span class="slide_animate"></span></h2>
+            	<h4>Lorem beewru ewriewrywer qwe<span class="slide_animate"></span></h4>
+            	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	tempor incididunt ut labore et dolore magna aliqua.<span class="slide_animate"></span></p>
+             	<div class="proj_btn">
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-link"></i>  View Site</a></button>
+	              <button class="projBtn"><a href="#"><i class="fa-solid fa-code"></i>  View Code</a></button>
+            	</div>	
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+
+
+
+
+    <!-- -------contact_section--------- -->
+    <section class="section" id="contact_section">
+      <h2>Contact Me</h2>
+      <section class="contact_section_wrap">
+        <section class="contact_top_section">
+            <div class="contact_box">
+              <span class="contact_icons"><i class="fa-solid fa-map-location-dot"></i></span>
+              <h4>Address</h4>
+              <h5>P-8 Castillo Village, Bislig City, Philippines</h5>
+            </div>
+            <div class="contact_box">
+              <span class="contact_icons"><i class="fa-solid fa-phone"></i></span>
+              <h4>Contact Number</h4>
+              <h5>+369507655133</h5>
+            </div>
+            <div class="contact_box">
+              <span class="contact_icons"><i class="fa-solid fa-paper-plane"></i></span>
+              <h4>Email Address</h4>
+              <h5>Jbryan.anajao@gmail.com</h5>
+            </div>
+            <div class="contact_box">
+              <span class="contact_icons"><i class="fa-solid fa-earth-americas"></i></span>
+              <h4>Website</h4>
+              <h5></h5>
+            </div>
+        </section>
+        <section class="contact_buttom_section">
+            <section class="left_contact_info">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15796.718139438575!2d126.34779686694951!3d8.184662026968812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1698164901230!5m2!1sen!2sph" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+
+          <section class="right_contact_info">
+            <input
+              type="text"
+              name="name"
+              id ="name"
+              placeholder="Full Name"
+            />
+            <input
+              type="email"
+              name="email"
+              id ="email"
+              placeholder="Email Addres"
+            />
+            <textarea placeholder="White your message..." id="message" required></textarea>
+            <button class="btn_submit" onclick="sendEmail()">
+              <i class="fa-regular fa-paper-plane"></i>Send Message
+            </button>
+          </section>
+        </section>
+        
+      </section>
+    </section>
+
+
+    <!-- ------------footer_section----------- -->
+    <footer class="footer">
+      <p>
+        Copyright <i class="fa-regular fa-copyright"></i> 2022 .
+        <span>JbryanAnajao</span> All Rights Reserved
+      </p>
+    </footer>
+
+
+
+    <!-- -------script_section--------- -->
+
+    <script src="./assets/js/icons.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
